@@ -1,8 +1,28 @@
 aid: shoobs
 name: Shoobs
-description: Shoobs is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Shoobs is a UK-based online events discovery and ticketing platform focused on
+  urban culture — Afrobeats, R&B, hip-hop, dancehall, comedy, theatre, festivals,
+  brunches and club nights across London and other British cities. Founded as a
+  Y Combinator-backed startup, Shoobs helps fans find and book tickets to events
+  that match their taste, and lets promoters list and sell tickets for urban and
+  Black-British cultural events. The platform pairs an events listing and
+  discovery site with an integrated editorial blog covering artists, concerts and
+  nightlife. Shoobs is a consumer web product; it does not publish a public
+  developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/shoobs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://shoobs.com/assets/logo-pink-90a77a0d508d5a5934eb47c88ae06e0dfeaaf9724fb8e35a8882a3f0719a278a.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Events
+- Ticketing
+- Entertainment
+- Nightlife
+- Music
+- Discovery
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/shoobs-domain-security.yml
+- type: Website
+  url: https://www.shoobs.com/
+- type: Blog
+  url: https://shoobs.com/blog
+- type: TermsOfService
+  url: https://shoobs.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://shoobs.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
